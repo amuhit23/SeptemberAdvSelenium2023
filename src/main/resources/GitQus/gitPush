@@ -1,0 +1,12 @@
+Normally artifact Id from pom.xml file is Repo Name
+Open gitHub accnt. 
+
+  Create a new repo
+  Copy the command line of the Repo, paste it in Notepad, write as follwong: 
+  
+git init
+git add .
+git commit -m "first commit"
+
+git remote add origin https://github.com/codeisfun23/SeptemberAdvSelenium2023.git
+git push 

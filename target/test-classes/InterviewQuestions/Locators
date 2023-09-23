@@ -1,0 +1,86 @@
+What is locators?
+
+		what is tag
+		
+		what is attributes
+		
+		Can you name direct locators is supported by selenium?
+		
+		---id, name, class, Linktext, partial link text
+		
+		What is ID?
+		-- Is an unique web element attributes of a Tag. 
+		
+		
+		What is Class?
+		
+		-- 
+		What is link text and partial link text?
+		
+	why should you use partial link text? 
+	
+		What is name?
+		
+	If i have multiple direct locators, what will happen? 
+	
+	    Ans: It will always click the 1st locator
+	    
+	    
+		What is Xpath?
+		Like 
+		Two Xpaths, -- Absolute and Relative XPath
+		
+		?? Why should even I need to develop an xpath?
+		--- If I have direct locators don't need to create Xpath. If I don't have direct locators options then I creare an Xpath. 
+		
+		
+		what is absolute xpath
+		-- From A-Z path. 
+		
+		Absolute XPath: full xpath
+
+                /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+		Lost hoye jabar possiblity onek. 
+		
+		how absolute xpat start
+		-- with a Single /
+		
+		
+		why do you not like absolute xpath
+		
+		
+		what is relative xpath
+		--- until NJ == I am fine 3hrs >> i must know where to start GPS; 
+		    from beginning of NJ (node) == rh house is 30 mins
+		
+		what is node
+		--node is my starting point of a relative xpath. 
+		
+		
+		What is the formula to create a regular xpath?
+		
+		-Xpath=>  // tagname [@ Attibute = 'value']
+		          // input [@ id='email'] 
+		
+		
+		
+		how do you confirmed it is a good xpath you built.
+		
+		how relative xpath starts
+		---- starts with // tagname
+		
+		
+		What is Xpath operator?
+		What is xpath method?
+		
+		what is double xpath
+		How to handle dynamic locators in selenim?
+		What is contains()  in locators?
+		What is text() in locators?
+		What is xpathxes?
+		What is CSS?
+		Can you explain css formula?
+		How to handle dynamic element with CSS?
+		Can you explains start with, ends with, substring to find locators?
+		What is absolute xpath?
+		What is relative xpath?

@@ -1,0 +1,66 @@
+step -1
+how to create maven project?
+
+		create maven project--File-->New--> Maven project--create simple
+		project-->put group id and artifact id -- click finish
+
+  A. how to update java version?
+    <properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	
+	find out what java version you have in your local machine
+	 open program file from this computer-->java
+	 and make sure do not put higher version then your local java
+	 you can put lower version
+	 
+	 then do maven update.  [>>>  Right Click on Project name > Maven > update Maven (forced update)] 
+	 
+ B. how to add dependencies
+	  add tag:
+	  <dependencies>
+	  
+	  </dependencies> 
+	  then add necessary dependency in the middle
+
+
+C. how do we find dependencies (3 types of dependencies need to be added) 
+                           >> 1st a : maven-compiler for Java version update, 
+                           >> Selenium-java
+                           >> bonigarcia for WebDriverManager
+                           >> TestNg 
+                           
+WHere to find these: go to maven repo  https://mvnrepository.com/:
+   
+   1. search selenium-java 
+         get the latest version
+   2. search WebDriverManager (bonigarcia)
+         get the latest version
+   3. search TestNG
+         get the latest version
+   
+   do a maven update
+   
+   Eclipse: 
+   
+      create a java class in >> src/main/java to make sure java is working.
+   
+      create a java class in >> src/test/java to make sure testNG is working.
+    
+      create a test case with chrome and edge/safari to test selenium
+   
+  WebDriverManager.chromedriver().setup();
+  
+   WebDriverManager will find out what version browser i have in my local machine
+   and then it will provide matching driver.exe file.
+   
+   driver.exe file job is to supply the source or test code
+   browser job is display supplied code properly
+   
+   WebDriverManager er instance variable 'driver'
+   
+   driver= new ChromeDriver(); or driver= new SafariDriver();
+   
+   // create a git hub account
+   // push this code in github
