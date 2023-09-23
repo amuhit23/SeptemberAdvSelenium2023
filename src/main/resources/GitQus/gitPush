@@ -36,9 +36,12 @@ git push.
 
 
 TO CHECK: git status
-          git 
+          git add .
+          git commit -m "number"
+          git push
 
 
+Trouble shoot: 
 
 Your name and email address were configured automatically based
 on your username and hostname. 
