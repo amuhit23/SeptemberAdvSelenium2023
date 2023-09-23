@@ -1,12 +1,57 @@
 Normally artifact Id from pom.xml file is Repo Name
 Open gitHub accnt. 
 
-  Create a new repo
-  Copy the command line of the Repo, paste it in Notepad, write as follwong: 
+  Create a new repo in Git Hub
+  Copy the command lines of the Repo, paste it in Notepad, write as following: 
+  
+  
+  Steps:
   
 git init
 git add .
 git commit -m "first commit"
 
-git remote add origin https://github.com/codeisfun23/SeptemberAdvSelenium2023.git
+git remote add origin https://github.com/amuhit23/SeptemberAdvSelenium2023.git
+
 git push 
+
+
+STEPS did:
+
+git init
+git add 
+git commit -m "first commit"
+
+If  gitbash does not find your user name and password: 
+
+	git config --global user.email “muhit.github@gmail.com” // github eamil and passw
+	git config --global user.name “amuhit23”
+
+git remote add origin https://github.com/amuhit23/SeptemberAdvSelenium2023.git
+
+
+git push --set-upstream origin master
+
+git push.
+
+
+TO CHECK: git status
+          git 
+
+
+
+Your name and email address were configured automatically based
+on your username and hostname. 
+
+	Please check that they are accurate.
+
+You can suppress this message by setting them explicitly. 
+
+Run the following command and follow the instructions in your editor to edit your configuration file:
+
+
+To fix this on Mac I had to use PAT 
+
+Instead, you will need to use a Personal Access Token (PAT) in place of your password. To add a PAT to your system, you can follow the steps outlined below.
+
+https://dev.to/shafia/support-for-password-authentication-was-removed-please-use-a-personal-access-token-instead-4nbk#:~:text=Starting%20from%20August%2013%2C%202021,follow%20the%20steps%20outlined%20below.
