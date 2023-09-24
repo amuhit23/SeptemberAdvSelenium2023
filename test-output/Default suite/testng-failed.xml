@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.locators.DoubleXpath">
+      <class name="com.facebook.locators.RegularCSS">
         <methods>
-          <include name="andCondition"/>
+          <include name="loginTest"/>
           <include name="openFacebook"/>
         </methods>
-      </class> <!-- com.facebook.locators.DoubleXpath -->
+      </class> <!-- com.facebook.locators.RegularCSS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
