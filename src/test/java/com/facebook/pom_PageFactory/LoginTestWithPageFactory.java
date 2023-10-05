@@ -1,28 +1,19 @@
-package com.facebook.pageObjectModel_LoginTest;
+package com.facebook.pom_PageFactory;
 
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.facebook.pageObjectModel_LoginPages.LoginPage;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LoginTest {
+public class LoginTestWithPageFactory {
 	
-	
-	public LoginTest() { // This is the default constructor
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
 	WebDriver driver;
-	
-//LoginPage loginPage=new LoginPage();
-
+	LoginPageWithPageFactory lpf;
 
 	@BeforeTest
 
@@ -40,26 +31,27 @@ public class LoginTest {
 	
 	@Test
 	public void validLoginTest() {
-		LoginPage loginPage=new LoginPage(driver);
-		loginPage.userName("fgd");
-		loginPage.password("dfs");
-		loginPage.clicklogInButton();
-	
+		lpf=new LoginPageWithPageFactory(driver);
+		lpf.userNameMethod("Nurul");
+		lpf.passWordMethod("dfjf");
+		lpf.loginButton();
+		
 	}
 	
 	@Test
 	public void invalidLoginTest() {
-			LoginPage loginPage=new LoginPage(driver);
-			loginPage.userName("123A");
-			loginPage.password("jkfgj");
-			loginPage.clicklogInButton();
+		lpf=new LoginPageWithPageFactory(driver);
+		lpf.userNameMethod("Nurul");
+		lpf.passWordMethod("dfjf");
+		lpf.loginButton();
 		
 	}
 	
+	@AfterMethod
 	public void closeApp() {
-		if (driver !=null) { // means driver= something then driver quit
+		if (driver !=null);
 		driver.quit();
 	}
-
-	}
+	
+	
 }

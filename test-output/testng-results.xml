@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-30T10:27:34 CDT" name="Default suite" finished-at="2023-09-30T10:28:16 CDT" duration-ms="41876">
+  <suite started-at="2023-10-05T07:09:24 CDT" name="Default suite" finished-at="2023-10-05T07:10:07 CDT" duration-ms="43087">
     <groups>
     </groups>
-    <test started-at="2023-09-30T10:27:34 CDT" name="Default test" finished-at="2023-09-30T10:28:16 CDT" duration-ms="41876">
-      <class name="com.facebook.pageFactory.LoginTest">
-        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook.pageFactory.LoginTest@47eaca72]" started-at="2023-09-30T10:27:34 CDT" name="openFacebook" finished-at="2023-09-30T10:28:14 CDT" duration-ms="39323" status="PASS">
+    <test started-at="2023-10-05T07:09:24 CDT" name="Default test" finished-at="2023-10-05T07:10:07 CDT" duration-ms="43087">
+      <class name="com.facebook.pom_PageFactory.LoginTestWithPageFactory">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook.pom_PageFactory.LoginTestWithPageFactory@692f203f]" started-at="2023-10-05T07:09:24 CDT" name="openFacebook" finished-at="2023-10-05T07:09:39 CDT" duration-ms="15108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFacebook -->
-        <test-method signature="boundaryLoginTest()[pri:0, instance:com.facebook.pageFactory.LoginTest@47eaca72]" started-at="2023-09-30T10:28:14 CDT" name="boundaryLoginTest" finished-at="2023-09-30T10:28:16 CDT" duration-ms="2533" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.facebook.pom_PageFactory.LoginTestWithPageFactory@692f203f]" started-at="2023-10-05T07:09:39 CDT" name="invalidLoginTest" finished-at="2023-10-05T07:09:43 CDT" duration-ms="3970" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- boundaryLoginTest -->
-      </class> <!-- com.facebook.pageFactory.LoginTest -->
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.facebook.pom_PageFactory.LoginTestWithPageFactory@692f203f]" started-at="2023-10-05T07:09:43 CDT" name="validLoginTest" finished-at="2023-10-05T07:10:07 CDT" duration-ms="23991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- com.facebook.pom_PageFactory.LoginTestWithPageFactory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
