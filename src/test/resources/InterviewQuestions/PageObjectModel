@@ -1,0 +1,16 @@
+what is page object model POM= it's a design patern style
+
+what is object repository
+what is constructor
+what is user define constructor
+how POM design constructor (v.i.i)
+	user defined POM constructor
+	
+what is page factory
+what is initElements
+waht is POM formula
+	ans: everything in the page is in an element and every element should have it's own method
+List of webelemettns are 
+
+what is webElement
+Should we have void method or return 
